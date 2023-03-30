@@ -13,7 +13,7 @@ router.get('/', function (req, res, next) {
     }
     res.render('computation', {
         imul: `Math.imul() applied to ${y} is  ${imul}`,
-        log: `Math.imul() applied to ${y} is  ${log}`,
+        log: `Math.imul() applied to ${y} is  ${log}`, 
         log10: `Math.imul() applied to ${y} is  ${log10}`
     });
 });
